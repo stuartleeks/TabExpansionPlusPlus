@@ -111,7 +111,7 @@ At a minimum, you must specify the following parameters to `Test-ArgumentComplet
 Test-ArgumentCompleter -CommandName Get-Verb -ParameterName Verb
 
 ### Test the argument completer with input
-Test-ArgumentCompleter -CommandName Get-Verb -ParameterName Verb
+Test-ArgumentCompleter -CommandName Get-Verb -ParameterName Verb -WordToComplete St
 ```
 
 # Issues / Feedback
